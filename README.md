@@ -8,7 +8,6 @@ The goal of the project is to simulate a realistic data workflow by ingesting ra
 
 The project focuses on data engineering fundamentals, analytical querying, and pipeline organization while using real-world motorsport telemetry and race session data.
 
----
 
 ## Tech Stack
 
@@ -19,7 +18,6 @@ The project focuses on data engineering fundamentals, analytical querying, and p
 - JSON / CSV data processing
 - Power BI (planned)
 
----
 
 ## Pipeline Architecture
 
@@ -30,7 +28,6 @@ Raw JSON Export
 → SQL Analytics Queries  
 → Power BI Dashboard (planned)
 
----
 
 ## Features
 
@@ -42,7 +39,6 @@ Raw JSON Export
 - Repeatable ETL workflow structure
 - Organized raw vs processed data layers
 
----
 
 ## Example Analysis Areas
 
@@ -58,7 +54,6 @@ Evaluate performance trends across different competition levels (SOF).
 ### Trend Analysis
 Track race consistency and performance changes over time.
 
----
 
 ## Key Skills Demonstrated
 
@@ -69,7 +64,6 @@ Track race consistency and performance changes over time.
 - SQL aggregation and analytical querying
 - Pipeline organization and workflow management
 
----
 
 ## Future Improvements
 
@@ -79,7 +73,6 @@ Track race consistency and performance changes over time.
 - Additional racecraft and telemetry metrics
 - Advanced SQL reporting queries
 
----
 
 ## Project Structure
 
