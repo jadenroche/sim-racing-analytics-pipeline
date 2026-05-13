@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sim Racing Analytics Pipeline
 
 ## Overview
@@ -97,3 +98,6 @@ sim_racing_data_project/
 ├── .gitignore
 └── README.md
 ```
+=======
+# sim-racing-analytics-pipeline
+>>>>>>> 53a0b99a0f2bb5793503488b92154fbdad923305
