@@ -6,3 +6,5 @@ data/raw/
 data/processed/*.csv
 !data/processed/sample_races.csv
 docs/
+data/processed/races_api_v1.csv
+data/processed/races_manual_v1.csv
