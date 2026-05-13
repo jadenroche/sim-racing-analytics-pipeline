@@ -1,6 +1,6 @@
 import json
 
-with open("raw_data/search_results_official.json", "r") as file:
+with open("data/raw/incoming/search_results_official.json", "r") as file:
     data = json.load(file)
 
 print("TOP LEVEL TYPE:", type(data))
