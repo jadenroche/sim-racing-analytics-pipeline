@@ -3,11 +3,9 @@ import json
 from pathlib import Path
 from scripts.ingestion.auth_iracing import get_access_token
 
-
 # Directory for raw API response storage
 RAW_API_DIR = Path("data/raw/incoming/api_json")
 RAW_API_DIR.mkdir(parents=True, exist_ok=True)
-
 
 def fetch_results(subsession_id):
     # Fetch race result data from the iRacing API and save
@@ -53,7 +51,6 @@ def fetch_results(subsession_id):
         json.dump(result_data, file, indent=4)
 
     print(f"Saved raw result JSON to: {output_path}")
-
 
 if __name__ == "__main__":
     fetch_results(38280997)

@@ -110,8 +110,7 @@ rows_after = cursor.execute("SELECT COUNT(*) FROM races;").fetchone()[0]
 
 conn.close()
 
-
-print("Database load complete.")
+"Database load complete.")
 print(f"Rows before: {rows_before}")
 print(f"Rows after: {rows_after}")
 print(f"New rows added: {rows_after - rows_before}")

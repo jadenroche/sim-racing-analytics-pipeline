@@ -8,7 +8,6 @@ The project simulates a real-world data pipeline by ingesting race exports, tran
 
 The project focuses on data engineering fundamentals, analytical querying, dashboard design, and end-to-end workflow organization using motorsport race data.
 
-
 ## Tech Stack
 
 - Python
@@ -18,7 +17,6 @@ The project focuses on data engineering fundamentals, analytical querying, dashb
 - JSON / CSV processing
 - Power BI
 - Git / GitHub
-
 
 ## Dashboard Preview
 
@@ -30,7 +28,6 @@ The project focuses on data engineering fundamentals, analytical querying, dashb
 
 ![Incident Dashboard](screenshots/incident_analysis.png)
 
-
 ## Pipeline Architecture
 
 Raw Race Exports
@@ -39,7 +36,6 @@ Raw Race Exports
 → SQLite Database
 → SQL Queries
 → Power BI Dashboards
-
 
 ## Features
 
@@ -51,7 +47,6 @@ Raw Race Exports
 - Trend analysis across races, cars, and tracks
 - Modular ETL workflow
 
-
 ## Key Skills Demonstrated
 
 - ETL workflow development
@@ -61,14 +56,12 @@ Raw Race Exports
 - Dashboard development in Power BI
 - Data storytelling and visualization
 
-
 ## Future Improvements
 
 - API-based automated ingestion
 - Additional telemetry metrics
 - Expanded SQL analysis library
 - Performance prediction modeling
-
 
 ## Documentation
 

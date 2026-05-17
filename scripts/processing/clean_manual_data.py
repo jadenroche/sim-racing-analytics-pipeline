@@ -2,10 +2,8 @@ import json
 import pandas as pd
 from pathlib import Path
 
-
 RAW_FILE = Path("data/raw/incoming/search_results_official.json")
 OUTPUT_FILE = Path("data/processed/races_manual_v1.csv")
-
 
 # Load JSON
 with open(RAW_FILE, "r") as file:
@@ -39,7 +37,6 @@ def get_track_id(track):
 df["track_name"] = df["track"].apply(get_track_name)
 df["track_config"] = df["track"].apply(get_track_config)
 df["track_id"] = df["track"].apply(get_track_id)
-
 
 # Select columns to keep from the raw data
 columns_to_keep = [
@@ -97,10 +94,3 @@ clean_df.to_csv(OUTPUT_FILE, index=False)
 print(f"Clean file created: {OUTPUT_FILE}")
 print(f"Rows saved: {len(clean_df)}")
 print(clean_df.head())
-
-
-
-
-
-
-

@@ -3,12 +3,10 @@ from pathlib import Path
 
 import pandas as pd
 
-
 RAW_FILE = Path("data/raw/incoming/search_results_official.json")
 OUTPUT_FILE = Path("data/processed/races_api_v1.csv")
 
 OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-
 
 def extract_records(raw_data):
     # Extract race records from the nested iRacing JSON export.
@@ -18,24 +16,20 @@ def extract_records(raw_data):
 
     raise ValueError("Unexpected JSON structure. Expected nested list of race records.")
 
-
 def get_track_name(track):
     if isinstance(track, dict):
         return track.get("track_name")
     return None
-
 
 def get_track_config(track):
     if isinstance(track, dict):
         return track.get("config_name")
     return None
 
-
 def get_track_id(track):
     if isinstance(track, dict):
         return track.get("track_id")
     return None
-
 
 with open(RAW_FILE, "r", encoding="utf-8") as file:
     data = json.load(file)

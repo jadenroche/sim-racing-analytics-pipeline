@@ -18,6 +18,5 @@ def get_access_token():
 
     return None
 
-
 if __name__ == "__main__":
     get_access_token()

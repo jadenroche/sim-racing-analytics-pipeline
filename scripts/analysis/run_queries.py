@@ -27,12 +27,10 @@ def run_sql_file(file_name, title):
     for row in results:
         print(row)
 
-
 # Run queries
 run_sql_file("average_finish.sql", "Average Finish")
 run_sql_file("track_performance.sql", "Track Performance")
 run_sql_file("incident_analysis.sql", "Incident Analysis")
-
 
 # Close connection 
 conn.close()
