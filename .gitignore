@@ -1,10 +1,39 @@
+# Virtual environments
 venv/
+.env/
+
+# Python
 __pycache__/
-.env
+*.pyc
+
+# Database
 *.db
+*.sqlite
+*.session.sql
+
+# Raw exports
 data/raw/
+exports/
+
+# Processed data
 data/processed/*.csv
 !data/processed/sample_races.csv
-docs/
-data/processed/races_api_v1.csv
-data/processed/races_manual_v1.csv
+
+# Private working docs
+notes/
+
+# Power BI temp files
+*.pbix.autorecovery
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+config/
+
+# VS Code
+.vscode/
+
+# Power BI dashboard files
+powerbi/*.pbix
